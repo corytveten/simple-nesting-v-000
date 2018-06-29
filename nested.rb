@@ -196,7 +196,7 @@ def dennis_ritchies_language
 	       }
 	    }
 
-		programmer_hash[:dennis_ritchie][:languages].each {|lang|
+		programmer_hash[:dennis_ritchie][:languages].map {|lang|
 			lang}
 
 end
